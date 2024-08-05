@@ -15,7 +15,7 @@ html {
     height: 100vh;
     display: grid;
     grid-template-columns: 300px 4fr;
-    overflow: hidden;
+    overflow: scroll;
 }
 
 /*  */
@@ -83,21 +83,6 @@ html {
     grid-auto-rows: auto;
     align-items: center;
 }
-
-/* .menu-bottom > img {
-    align-self: center;
-    margin-left: 5px;
-    margin-right: 5px;
-    height: 30px;
-}
-
-.menu-bottom > p {
-    color: #111827;
-    font-size: 24px;
-    font-weight: bold;
-    align-self: center;
-    margin-left: 10px;
-} */
 
 /*  */
 /* Dashboard area */
@@ -233,7 +218,6 @@ html {
     grid-template-rows: repeat(auto-fill, 300px);
     grid-template-columns: repeat(auto-fill, 500px);
     gap: 25px;
-    overflow: scroll;
     height: 100%;
 }
 
